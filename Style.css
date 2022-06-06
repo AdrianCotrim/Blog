@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Bahnschrift SemiBold;
+}
+
+:root {
+    --vermelho-principal: #ff0000;
+    --vermelho-titulo: #ff2525;
+    --branco-principal: #f5f5f5;
+    --cinza-principal: #3c3c3c;
+    --preto-principal: #0000;
+}
+
+.cabeçalho {
+    background-color: var(--vermelho-principal);
+}
+
+.desenhoLink {
+    width: 25%;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: 20;
+}
+
+.linha {
+    width: 400px;
+    height: 47px;
+    border-bottom: 5px solid rgba(0, 0, 0, 50%);
+    border-radius: 2px;
+    position: relative;
+    left: 35%;
+}
+
+.artigos {
+    padding: 25px;
+}
+
+.artigos li{
+    display: inline-block;
+    border: 8px solid var(--cinza-principal);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 3em;
+}
+
+.artigoTitulo {
+    font-size: 2em;
+}
+
+.artigoDescricao {
+    margin-top: 10px;
+}
