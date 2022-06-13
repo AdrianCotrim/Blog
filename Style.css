@@ -6,9 +6,7 @@
 
 :root {
     --vermelho-principal: #ff1c1c;
-    --vermelho-titulo: #ff2525;
     --branco-principal: #f5f5f5;
-    --cinza-marcação: #3c3c3c;
     --cinza-transparente: rgba(0, 0, 0, 35%);
     --preto-principal: #0000;
 }
@@ -30,6 +28,7 @@ main {
 
 h1 {
     font-size: 75px;
+    margin: 20px 0;
 }
 
 p {
@@ -37,7 +36,7 @@ p {
 }
 
 hr{
-    margin-top: 5em;
+    margin-top: 3em;
     display: inline-block;
     width: 50em;
     border: 3px solid var(--cinza-transparente);
@@ -53,18 +52,23 @@ hr{
 .artigos li{
     display: inline-block;
     text-align: center;
-    border: 8px solid var(--cinza-marcação);
-    border-radius: 0.5em;
+    border: 5px solid #707070;
     width: 350px;
     height: auto;
     padding: 5% auto;
     margin: 2em;
+    transition: 0.2s;
+    box-shadow: 10px 8px 2px #000000;
+}
+
+.artigos li:active{
+    box-shadow: 0px 0px #000000;
 }
 
 /*Estrutura do preview dos artigos*/
 .artigosTitulo {
     font-size: 2.5em;  
-    color: var(--vermelho-titulo);
+    color: var(--vermelho-principal);
     margin-bottom: 10px;
 }
 
