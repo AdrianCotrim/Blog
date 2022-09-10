@@ -1,0 +1,17 @@
+.sobre__titulo {
+    font-size: 100px;
+    margin: 20px 0;
+}
+
+.sobre__texto {
+    font-size: 23;
+}
+
+#link {
+    color: var(--vermelho-principal);
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}

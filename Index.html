@@ -3,40 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <title>Blog do Adrian</title>
-        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/sobre.css">
+        <link rel="stylesheet" href="./assets/css/artigos/artigos.css">
+        <link rel="stylesheet" href="./assets/css/artigos/artigo.css">
+        <link rel="stylesheet" href="./assets/css/rodape.css">         
     </head>
 
     <body>
-        <header class="cabeçalho">
-            <a href="Index.html"><img src="/img/IconeBlog.png" class="desenhoLink"></a>
+        <header class="cabecalho">
+            <h1 class="titulo-principal">Adrian</h1>
         </header>
         <main>
-            <h1>Blog</h1>
-            <p>Bem vindo ao meu blog! É aqui que posto artigos sobre o que estou    
-            criando, desenvolvendo, aprendendendo,<br> ou apenas coisas que eu gosto e 
-            assuntos que eu quero abordar. Não tem nenhum tipo de "frequência fixa"
-            para quando eu vou publicar<br> os artigos, eu faço por pura diversão então 
-            não espere a cada 1 semana ou 2 dias um artigo novo. Mas para saber<br> quando 
-            eu vou publicar algo, você pode sempre checar minhas redes sociais!</p>
+            <h1 class="sobre__titulo">Sobre</h1>
+            <p class="sobre__texto">Bem vindo ao meu blog! É aqui que posto artigos sobre o que estou    
+            criando, desenvolvendo, aprendendendo,<br> ou só sobre coisas que eu gosto e 
+            quero abordar. Não tem nenhum tipo de "frequência" para quando eu vou publicar<br> 
+            os artigos, eu faço apenas por diversão então não espere um artigo novo a cada 1 semana 
+            por exemplo. Mas para receber<br> notificações de artigo novos é só me seguir 
+            nas minhas <a id="link" href="#redes-anchor">redes sociais</a>!</p>
             
             <hr>
             
+            <h2 class="artigos__titulo">Artigos</h2>
             <section class="artigos">
-                <ul>
-                    <li>
-                        <h2 class="artigosTitulo">Titulo grande de teste 1</h2>
-                        <div class="artigosImagem"></div><!-- Placeholder para definir as proporções para futuras imagens -->
-                        <p class="artigosDescricao">Descrição do artigo teste</p>
-                        <time class="artigosData">xx-xx-xxxx</time>
-                    </li>
-                    <li>
-                        <h2 class="artigosTitulo">Titulo grande de teste 1</h2>
-                        <div class="artigosImagem"></div><!-- Placeholder para definir as proporções para futuras imagens -->
-                        <p class="artigosDescricao">Descrição do artigo teste</p>
-                        <time class="artigosData">xx-xx-xxxx</time><!-- Data de teste -->
-                    </li>
-                </ul>
+                <a href="#"><div class="artigo__container--destaque">
+                    <div class="artigo--destaque">
+                        <h3 class="artigo__titulo--destaque">Texto Longo Teste</h3>
+                    </div>
+                </a></div>
+
+                <div class="artigo__container">
+                <a href="#"><div class="artigo">
+                    <h3 class="artigo__titulo">Texto Teste</h3>
+                </div></a>
+                <a href="#"><div class="artigo">
+                    <h3 class="artigo__titulo">Texto Teste</h3>
+                </div></a>
+                <a href="#"><div class="artigo">
+                    <h3 class="artigo__titulo">Texto Teste</h3>
+                </div></a>
             </section>
+
+            <footer class="rodape">
+                <div id="redes-anchor"></div>
+                <ul class="redes">
+                    <li class="redes__item"><img class="redes__imagem" src="./assets/img/twitter.png"><a href="https://twitter.com/Adrian_sk8sta64">Twitter</a></li>
+                    <li class="redes__item"><img class="redes__imagem" src="./assets/img/youtube.png"><a href="https://www.youtube.com/channel/UC6_k00xP8-GCZ27aZItn94A">Youtube</a></li>
+                </ul>
+            </footer>
         </main>
     </body>
 </html>

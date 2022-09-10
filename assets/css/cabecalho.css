@@ -1,0 +1,19 @@
+.cabecalho {
+    background-color: var(--vermelho-principal);
+    padding: 10em 0;
+    text-align: center;
+    margin-bottom: 1em;
+    width: 100%;
+    
+}
+
+.titulo-principal {
+    background: -webkit-linear-gradient(left,#ed0000 15%, #ede700 50%, #00ed10 80%);
+    display: inline-block;
+    font-family: 'THE MINION';
+    font-size: 10em;
+    letter-spacing: 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+}

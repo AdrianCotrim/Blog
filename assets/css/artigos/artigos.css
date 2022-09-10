@@ -1,0 +1,13 @@
+.artigos {
+    padding: 15px;
+    margin-bottom: 16em;
+}
+
+.artigos a {
+    text-decoration: none;
+}
+
+.artigos__titulo{
+    font-size: 5em;
+    margin-bottom: 5px;
+}

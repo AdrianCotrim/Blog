@@ -1,0 +1,34 @@
+.rodape {
+    background: var(--vermelho-escuro);
+    padding: 5em 0;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes__imagem {
+    width: 32px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.redes__item {
+    color: var(--branco-principal);
+    display: inline;
+    font-size: 2em;
+    margin: 0 5em;
+    text-decoration: none;
+}
+
+.redes__item a {
+    text-decoration: none;
+}
+
+.redes__item a:visited {
+    color: var(--branco-principal);
+}
+
+.redes__item a:hover{
+    text-decoration: underline;
+}
